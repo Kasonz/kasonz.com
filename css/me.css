@@ -32,3 +32,9 @@ a:hover {
 h2.display-3 {
     font-weight: 400;
 }
+
+.text-small{
+    font-size: 0.9rem;
+}
+
+
