@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Kason Zhao Personal Website" />
+    <meta name="author" content="Kasonzx" />
+
+    <title>Kasonz</title>
+
+    <meta />
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/me.css" rel="stylesheet" />
+
+    <script>
+      var nowHour = parseInt(moment().format("HH"));
+      var say = "night";
+      if (nowHour >= 0 && nowHour <= 4) {
+        say = "night";
+      } else if (nowHour > 4 && nowHour <= 12) {
+        say = "morning";
+      } else if (nowHour > 12 && nowHour <= 18) {
+        say = "afternoon";
+      } else {
+        say = "evening";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1 class="pt-4">
+          Good
+          <script type="text/javascript">
+            document.write(say);
+          </script>
+          .
+        </h1>
+        <h2 class="display-3 pt-1">My name is Kason Z.</h2>
+        <p>
+          I am working at
+          <a href="https://www.sap.com/index.html" target="_blank">SAP</a> as an
+          architect in
+          <a
+            href="https://www.tripadvisor.com/Tourism-g297452-Dalian_Liaoning-Vacations.html"
+            target="_blank"
+            >Dalian</a
+          >.
+        </p>
+        <p>
+          The interests not only in the field of technology but also in other
+          fields like psychology, design, .etc
+        </p>
+        <p>
+          Outside of programming. I enjoy video games, family travel, sushi and
+          reading books.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
